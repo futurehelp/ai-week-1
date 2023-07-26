@@ -1,7 +1,8 @@
 import React from "react";
 
-const ImageType = (props) => {
+export const ImageType = (props) => {
   const mostMatched = props.data[0];
+  const student = props.student;
   const allLabels = props.data.map((elem) => elem.label);
   const sortedLabels = allLabels.sort((a, b) => a.localeCompare(b));
   return (
@@ -16,8 +17,8 @@ const ImageType = (props) => {
                 }`}
                 src={
                   label === "N/A"
-                    ? "./images/No.png"
-                    : `./images/${label}.png`
+                    ? `./images/${student}/No.png`
+                    : `./images/${student}/${label}.png`
                 }
                 alt={label}
               />
