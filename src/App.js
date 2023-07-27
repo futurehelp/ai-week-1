@@ -95,6 +95,7 @@ import {
   Students,
   Will,
   Alex,
+  Gray,
 } from "./screens";
 
 function App() {
@@ -105,6 +106,7 @@ function App() {
           <Route exact path="/" element={<Students />} />
           <Route exact path="/will" element={<Will />} />
           <Route exact path="/alex" element={<Alex />} />
+          <Route exact path="/gray" element={<Gray />} />
         </Routes>
       </Router>
     </div>
