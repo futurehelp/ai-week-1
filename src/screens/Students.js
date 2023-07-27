@@ -12,6 +12,8 @@ export function Students() {
             <button onClick={() => navigate('/alex')}>Alex</button>
             <br></br>
             <button onClick={() => navigate('/gray')}>Gray</button>
+            <br></br>
+            <a href="https://github.com/futurehelp/ai-week-1">github code</a>
           </div>
         </div>
       </div>
