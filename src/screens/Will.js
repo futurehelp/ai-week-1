@@ -6,7 +6,6 @@ import useInterval from '@use-it/interval';
 import { ImageType, Chart } from '../components';
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-// import "../App.css";
 
 let classifier;
 
