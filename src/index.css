@@ -15,3 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shadow-host-companion {
+  animation: none !important; /* Disable animation */
+  background: none !important; /* Remove background gradient */
+  box-shadow: none !important; /* Remove any shadows */
+}
